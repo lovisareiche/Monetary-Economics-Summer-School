@@ -1,0 +1,8 @@
+# Note on Python Code
+
+The google collab doesn't work in normal jupyter notebook environment. Instead you can upload the file to your directory and run the following lines:
+
+file_path = 'data.csv'
+
+# Import data (from Jarocinski and Karadi 2020, AEJ:Macro)
+df = pd.read_csv(file_path)
